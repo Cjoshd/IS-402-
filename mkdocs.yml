@@ -1,0 +1,68 @@
+
+site_name: Automated Harvesting System
+site_description: FYP Engineering Design Report
+
+theme:
+  name: material
+  language: en
+
+  palette:
+    - scheme: default
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+    - scheme: slate
+      primary: teal
+      accent: light-green
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+  icon:
+    logo: material/sprout
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - tables
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.arithmatex:
+      generic: true
+
+nav:
+  - Home: index.md
+
+  - Academic Report:
+      - Introduction: report/introduction.md
+      - Literature Review: report/literature.md
+      - Methodology: report/methodology.md
+      - Design Development: report/design.md
+      - Results: report/results.md
+      - Conclusion: report/conclusion.md
+      - References: report/references.md
+
+  - Engineering Showcase:
+      - System Overview: showcase/overview.md
+      - CAD Models: showcase/cad.md
+      - Mechanism Design: showcase/mechanisms.md
+      - Prototype Gallery: showcase/prototypes.md
+      - Testing Videos: showcase/testing.md
