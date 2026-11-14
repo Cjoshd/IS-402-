@@ -48,16 +48,17 @@ markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
 
+
 nav:
   - Home: index.md
 
   - Academic Report:
-      - Introduction: report/introduction.md
-      - Literature Review: report/literature.md
-      - Methodology: report/methodology.md
-      - Design Development: report/design.md
-      - Results: report/results.md
-      - Conclusion: report/conclusion.md
+      - "1. Introduction": report/introduction.md
+      - "2. Concept Development and Selection": report/concepts.md
+      - "3. Detailed Mechanical Design": report/detailed-design.md
+      - "4. Prototype Development and Testing": report/prototyping.md
+      - "5. Results and Discussion": report/results.md
+      - "6. Conclusion": report/conclusion.md
       - References: report/references.md
 
   - Engineering Showcase:

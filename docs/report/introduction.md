@@ -82,7 +82,7 @@ Therefore, there is a need to develop an automated harvesting system capable of 
 
 ## 1.6 Project Objectives and Scope
 
-### 1.6.1 Project Objectives
+### ***1.6.1 Project Objectives***
 
 The primary objective of this project is to design and develop an automated harvesting system for leafy green vegetables cultivated in hydroponic trays within indoor vertical farms.
 
@@ -96,7 +96,7 @@ The specific objectives are to:
 
 4. **Evaluate the feasibility** of the proposed design through mechanical analysis, prototyping, and functional testing.
 
-### 1.6.2 Project Scope
+### ***1.6.2 Project Scope***
 
 This project focuses on the mechanical design and development of an automated harvesting system for leafy green vegetables grown in hydroponic trays. The proposed system encompasses three primary operations: supporting and handling mature crops, separating the vegetables from their stems or root systems, and transferring the harvested produce for further processing.
 
