@@ -387,18 +387,7 @@ These figures assume each washer runs at its maximum pressure and maximum flow a
 - Nozzle diameter = √(4 × 0.0001 ÷ (π × 141)) ≈ 0.95 mm
 - Jet force = 1000 × 0.0001 × 141 ≈ 14 N
 
-Applying the same relations to all four washers gives jet forces of 14–24 N when one nozzle takes the full flow (Table 13). The equivalent stress is the jet force spread over a 10 mm stem (78.5 mm²), the impact model used by the previous cohort [22], whose design stress is 0.30 MPa (0.20 MPa failure stress × safety factor 1.5).
-
-<div markdown style="text-align: center;">
-**Table 13** (Appendix A)**:** Ideal jet properties for each washer (team calculation).
-</div>
-
-| Washer | Rating | Jet velocity | Hydraulic power | Nozzle diameter | Jet force | Stress on 10 mm stem |
-|---|---|---|---|---|---|---|
-| Makita HW102 | 100 bar, 6.0 L/min | 141 m/s | 1,000 W | 0.95 mm | 14.1 N | 0.18 MPa |
-| Makita HW1300 | 130 bar, 7.5 L/min | 161 m/s | 1,625 W | 0.99 mm | 20.2 N | 0.26 MPa |
-| Kärcher K5 | 145 bar, 8.3 L/min | 170 m/s | 2,014 W | 1.02 mm | 23.7 N | 0.30 MPa |
-| Sun Joe SPX3000 | 140 bar, 6.7 L/min | 167 m/s | 1,554 W | 0.92 mm | 18.6 N | 0.24 MPa |
+Applying the same relations to all four washers gives jet forces of 14–24 N when one nozzle takes the full flow ([Appendix A](appendix.md#81-appendix-a-jet-calculations-for-four-pressure-washers), Table 13).
 
 The previous cohort estimated, with an impact-stress model, that a 0.5 mm nozzle needs about 74 MPa to sever a 10 mm stem, assuming a tissue failure stress of 0.20 MPa and a safety factor of 1.5 [22]. That is 7.4 times the HW102's 10 MPa. On the same model, the HW102's full 14 N spread over a 10 mm stem gives 0.18 MPa, below the 0.30 MPa design stress, and sharing the flow among three stems lowers it further.
 

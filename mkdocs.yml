@@ -59,7 +59,8 @@ nav:
       - "4. Shortcomings": report/shortcomings.md
       - "5. Future Work": report/future-work.md
       - "6. Conclusion": report/conclusion.md
-      - References: report/references.md
+      - "7. References": report/references.md
+      - "8. Appendices": report/appendix.md
 
   - Engineering Showcase:
       - System Overview: showcase/overview.md
