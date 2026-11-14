@@ -127,3 +127,28 @@ https://tallflowerx.github.io/IS-404/
 "Alternatives to hand labor in lettuce,"
 Jan. 19, 2022. [Online]. Available:
 https://migration.ucdavis.edu/rmn/blog/post/?id=2700
+
+[24] H. Wang, C. Qi, Q. Luo, M. Chen, Y. Ma,
+and X. Wang, "Optimization of clamping and
+conveying parameters for spinach orderly
+harvesting with low damage by simulation and
+experiment," Agronomy, 2024. [Online]. Available:
+https://doaj.org/article/1b3bf8b56106443d8fea936e0b32bf8c
+
+[25] HortiDaily, "Japan: Lettuce harvesting robot
+introduced into plant factory," 2025.
+[Online]. Available:
+https://www.hortidaily.com/article/9782602/japan-lettuce-harvesting-robot-introduced-into-plant-factory
+
+[26] Fruitnet, "FLIA 2016 nominee: Harvest
+Automation," 2016. [Online]. Available:
+https://fruitnet.com/eurofruit/flia-2016-nominee-harvest-automation/167711.article
+
+[27] HortiDaily, "Efficient harvesting of leafy
+vegetables grown in gutters," Jul. 10, 2024.
+[Online]. Available:
+https://www.hortidaily.com/article/9643390/efficient-harvesting-of-leafy-vegetables-grown-in-gutters
+
+[28] HortiDaily, "Speeding up microgreens harvest
+up to 90%," Sep. 19, 2018. [Online]. Available:
+https://www.hortidaily.com/article/9020330/speeding-up-microgreens-harvest-up-to-90/
