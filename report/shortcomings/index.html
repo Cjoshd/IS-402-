@@ -11,6 +11,10 @@
       
       
       
+        <link rel="prev" href="../design/">
+      
+      
+        <link rel="next" href="../future-work/">
       
       
         
@@ -21,7 +25,7 @@
     
     
       
-        <title>methodology - Automated Harvesting System</title>
+        <title>4. Shortcomings - Automated Harvesting System</title>
       
     
     
@@ -74,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#methodology" class="md-skip">
+        <a href="#4-shortcomings" class="md-skip">
           Skip to content
         </a>
       
@@ -108,7 +112,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              methodology
+              4. Shortcomings
             
           </span>
         </div>
@@ -226,10 +230,12 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
+      <li class="md-tabs__item md-tabs__item--active">
         <a href="../introduction/" class="md-tabs__link">
           
   
@@ -330,8 +336,10 @@
       
   
   
+    
   
   
+  
     
     
       
@@ -349,23 +357,28 @@
       
         
       
+        
+      
     
     
     
+      
+        
+        
       
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
             
   
   
@@ -383,7 +396,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             
@@ -429,14 +442,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../concepts/" class="md-nav__link">
+      <a href="../objective/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    2. Concept Development and Selection
+    2. Objective and Scope
   
 
     
@@ -464,7 +477,7 @@
   <span class="md-ellipsis">
     
   
-    3. Detailed Mechanical Design
+    3. Design Development
   
 
     
@@ -482,17 +495,26 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../prototyping.md" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
   <span class="md-ellipsis">
     
   
-    4. Prototype Development and Testing
+    4. Shortcomings
   
 
     
@@ -501,6 +523,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -513,14 +536,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../results/" class="md-nav__link">
+      <a href="../future-work/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    5. Results and Discussion
+    5. Future Work
   
 
     
@@ -576,7 +599,35 @@
   <span class="md-ellipsis">
     
   
-    References
+    7. References
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../appendix/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    8. Appendices
   
 
     
@@ -843,7 +894,58 @@
 
 
 
-<h1 id="methodology">methodology</h1>
+<h1 id="4-shortcomings">4. Shortcomings</h1>
+<p>In Semester 1, project evaluation has involved the design and development of CAD models, anatomy models, motion studies and physical prototype testing. Table 10 summarises the remaining shortcomings and the planned improvements that will guide the next stage of development.</p>
+<div style="text-align: center;">
+<p><strong>Table 10:</strong> Shortcomings of the current design and proposed resolutions.</p>
+</div>
+<table>
+<thead>
+<tr>
+<th>Shortcoming</th>
+<th>Why it matters</th>
+<th>Proposed resolution</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Jet pressure unproven</td>
+<td>A 10 MPa washer is 7.4× below the 74 MPa estimate</td>
+<td>Cut tests over pressure, nozzle and stand-off (T1)</td>
+</tr>
+<tr>
+<td>One jet in line with three stems</td>
+<td>The first stem may shield the others until it is severed</td>
+<td>Test sweep speed; compare one nozzle per stem</td>
+</tr>
+<tr>
+<td>Safe cup force unknown</td>
+<td>Over-closing could bruise the stem base</td>
+<td>Measure force against bruising (T2); current-limit the motor</td>
+</tr>
+<tr>
+<td>Collection after release</td>
+<td>Heads lie tipped on the tray; packing is not yet designed</td>
+<td>Define hand-off with ArianeTech; assess landing damage (T3)</td>
+</tr>
+<tr>
+<td>Tray layout</td>
+<td>The CAD tray uses rows of three at 300 mm; ArianeTech's layout must be confirmed</td>
+<td>Measure partner trays; adjust cup count and pitch</td>
+</tr>
+<tr>
+<td>Hygiene and water containment</td>
+<td>Jet spray and cut juice must not contaminate the crop</td>
+<td>Splash guard, food-grade contact parts, drainage</td>
+</tr>
+<tr>
+<td>Conveyor drive</td>
+<td>Motor type and motion when the holder engages are undecided</td>
+<td>Compare stepper and gearmotor drives during T4</td>
+</tr>
+</tbody>
+</table>
+<p>The tests T1–T4 referred to above are described in the Semester 2 test plan (<a href="../future-work/">Section 5</a>).</p>
 
 
 
