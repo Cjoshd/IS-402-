@@ -8,7 +8,7 @@ meet domestic consumption needs, with over
 90% of its food supply sourced internationally [1]. This dependence exposes the country to external supply
  disruptions arising from climate change, geopolitical
   developments, and interruptions to international
-   supply chains.
+   supply chains. 
 
 To strengthen national food resilience, Singapore has adopted a multi-pronged strategy encompassing import diversification, global partnerships, stockpiling, and local food production [1].
 
@@ -44,9 +44,26 @@ Indoor vertical farming can improve water-use efficiency. Hydroponic systems red
   </figcaption>
 </figure>
 
+Leafy green vegetables, such as lettuce and bok choy, are particularly relevant to indoor vertical farming due to their relatively short cultivation cycles and suitablilty for hydroponic growing systems [8]
+
 ## 1.3 Automation in Indoor Farming
 
-Content to be developed.
+Automation can improve operational efficiency of indoor vertical farms by reducing manual intervention in repetitive processes. 
+
+ArianeTech, our industry partner for this project, is a Singapore-based agricultural technology solutions provider specialising in indoor vertical farming systems. The company offers integrates solutions incorporating automted cultivation systems and equipment like smart environmental control systems [8].
+
+For the cultivation of leafy green vegetables, a typical production workflow can be simplified into four main stages: seeding, transplantion, cultivation, and harvesting. ArianeTech offers solutions that automate the first four stages, while harvesting reamins the focus for automation development.
+
+<figure markdown>
+  ![Automation Stages](../images/auto.png){ width="550" }
+
+  <figcaption>
+    Fig. 3. Illustration of automated technologies used in seeding, transplanting and contolled-environment cultivation in indoor vertical farming.
+  </figcaption>
+</figure>
+
+
+As the capacity for cultivation increases, the reliance on manual harvesting may constrain production throughput and increase labour requirements. Developing an automated harvesting system presents an opportunity to improve the scalability and operational efficiency of indoor vertical farming.
 
 ## 1.4 Challenges of Manual Harvesting
 

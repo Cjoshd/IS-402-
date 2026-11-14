@@ -44,3 +44,14 @@ https://directives.nrcs.usda.gov/sites/default/files2/1723052016/Subpart%20T%20-
 idroponiche in serra," 2015.
 [Online]. Available:
 https://www.waterandfoodsecurity.org/scheda.php?id=121
+
+[8] "Vertical farming: productivity, environmental
+impact, and resource use. A review,"
+Agronomy for Sustainable Development,
+Springer, 2025.
+doi: 10.1007/s13593-025-01055-w
+
+[9] ArianeTech Pte. Ltd.,
+"Urban Farming Singapore."
+[Online]. Available:
+https://arianetech-sg.com/
