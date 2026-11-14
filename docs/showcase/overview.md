@@ -2,6 +2,14 @@
 
 Harvester_v2 is a harvesting station that sits over ArianeTech's existing tray conveyor. It holds each lettuce head by the base of its stem in a split cup, cuts the stem with a waterjet, and sets the head back down on the tray, so the leaves are never gripped and nothing drops into a chute.
 
+<figure>
+  <video controls muted playsinline preload="metadata" style="width: 100%; max-width: 1000px;">
+    <source src="../../videos/final-design-animation.mp4" type="video/mp4">
+    <a href="../../videos/final-design-animation.mp4">Download the video</a>.
+  </video>
+  <figcaption>Harvester_v2 final design animation: trays of lettuce move along the conveyor under the harvesting station.</figcaption>
+</figure>
+
 ## How it works
 
 1. The conveyor indexes the next row of lettuce in, 300 mm at a time.
