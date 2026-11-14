@@ -313,6 +313,17 @@ The final design builds the multi-cup holder into a station over the conveyor (F
   </figcaption>
 </figure>
 
+<figure>
+  <video controls muted playsinline preload="metadata" style="width: 100%; max-width: 900px;">
+    <source src="../../videos/harvester-v2-motion-study.mp4" type="video/mp4">
+    Your browser cannot play this video.
+    <a href="../../videos/harvester-v2-motion-study.mp4">Download the motion study video</a>.
+  </video>
+  <figcaption>
+    Video 1: Harvester_v2 SolidWorks motion study.
+  </figcaption>
+</figure>
+
 In each cycle:
 
 1. The tray indexes the next row in while the cups are half-closed.
