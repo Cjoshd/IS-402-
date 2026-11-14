@@ -50,9 +50,9 @@ Leafy green vegetables, such as lettuce and bok choy, are particularly relevant 
 
 Automation can improve operational efficiency of indoor vertical farms by reducing manual intervention in repetitive processes. 
 
-ArianeTech, our industry partner for this project, is a Singapore-based agricultural technology solutions provider specialising in indoor vertical farming systems. The company offers integrates solutions incorporating automted cultivation systems and equipment like smart environmental control systems [8].
+ArianeTech, our industry partner for this project, is a Singapore-based agricultural technology solutions provider specialising in indoor vertical farming systems. The company offers integrates solutions incorporating automted cultivation systems and equipment like smart environmental control systems [9].
 
-For the cultivation of leafy green vegetables, a typical production workflow can be simplified into four main stages: seeding, transplantion, cultivation, and harvesting. ArianeTech offers solutions that automate the first four stages, while harvesting reamins the focus for automation development.
+For the cultivation of leafy green vegetables, a typical production workflow can be simplified into four main stages: seeding, transplantion, cultivation, and harvesting. ArianeTech offers solutions that automate the first four stages, while harvesting remains the focus for automation development.
 
 <figure markdown>
   ![Automation Stages](../images/auto.png){ width="550" }
@@ -67,12 +67,39 @@ As the capacity for cultivation increases, the reliance on manual harvesting may
 
 ## 1.4 Challenges of Manual Harvesting
 
-Content to be developed.
+Harvesting leafy green vegetables is not straightforward delicate physical structure and variations in plant geometry. Ma et al. investigated flexible finger gripping of hydroponic lettuce and reported injured leaf areas ranging from 120.3 mm² to 275.5 mm² across different gripping configurations [10]. This demonstrates the importance of controlling contact forces and gripping positions to minimise crop damage.
+
+Manual harvesting also presents challenges in terms of labour productivity and scalability. Ohayama er al, evaluated an artifically illuminated lettuce production facility and reported labout productivy ranging from 1.5 to 6.0 kg per person-hour, with harvesting identified as the most time-consuming production operation [11]. Furthermore, Agrilyst's 2017 industrry survey found that labour accounted for 56% of operation expenses among surveyed indoor vertical farms [12].
+
+As production capacity increases, dependence on manual harvesting may constrain throughput and increase labour requirements. These findings highlight the potential value of developing automated harvesting systems that minimise crop damage while enabling scalability.
+
 
 ## 1.5 Problem Statement
 
-Content to be developed.
+Despite advancements in the automation of indoor vertical farming, harvesting remains a labour-intensive operation within the production workflow considered in this project. As cultivation capacity increases, reliance on manual harvesting may limit production throughput, creating a bottleneck in an otherwise automated production process.
+
+Therefore, there is a need to develop an automated harvesting system capable of handling leafy green vegetables of different geometries and qualities, efficiently and consistently, with minimal crop damage. The proposed system should also accommodate simultaneous harvesting along cultivation rows to support scalability in indoor vertical farming operations.
 
 ## 1.6 Project Objectives and Scope
 
-Content to be developed.
+### 1.6.1 Project Objectives
+
+The primary objective of this project is to design and develop an automated harvesting system for leafy green vegetables cultivated in hydroponic trays within indoor vertical farms.
+
+The specific objectives are to:
+
+1. **Develop an automated harvesting mechanism** capable of separating and collecting mature leafy green vegetables from their growing trays.
+
+2. **Minimise mechanical damage to crops** through suitable handling, supporting, and cutting mechanisms that accommodate variations in plant geometry.
+
+3. **Enable simultaneous row-based harvesting** through a mechanically synchronised system to improve harvesting efficiency and scalability.
+
+4. **Evaluate the feasibility** of the proposed design through mechanical analysis, prototyping, and functional testing.
+
+### 1.6.2 Project Scope
+
+This project focuses on the mechanical design and development of an automated harvesting system for leafy green vegetables grown in hydroponic trays. The proposed system encompasses three primary operations: supporting and handling mature crops, separating the vegetables from their stems or root systems, and transferring the harvested produce for further processing.
+
+The design emphasises simultaneous harvesting along a cultivation row rather than individual crop harvesting. Particular consideration is given to minimising crop damage, simplifying mechanical actuation, and ensuring compatibility with the existing cultivation arrangement.
+
+The project includes concept generation and evaluation, detailed mechanical design, prototype fabrication, and functional testing to assess the feasibility of the proposed harvesting system. The development of a fully integrated, commercial-scale harvesting system is beyond the scope of this project.
