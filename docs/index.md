@@ -1,68 +1,83 @@
 
-<div class="hero" markdown>
+<div class="home-hero" markdown>
 
-# Automated Harvesting of Leafy Vegetables
+<p class="home-eyebrow">
+IS-402 | FINAL YEAR PROJECT
+</p>
 
-**Final Year Engineering Project**
+# Automated Harvesting of Leafy Green Vegetables
 
-Design and development of a row-based
-automated harvesting system for
-hydroponically grown leafy vegetables.
+Design and development of a row-based automated
+harvesting system for hydroponically grown leafy
+vegetables in indoor vertical farms.
+
+<div class="home-video">
+
+<video controls autoplay muted loop playsinline
+       preload="metadata"
+       aria-label="Featured harvesting mechanism demonstration">
+  <source src="videos/clamp.mp4"
+          type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+
+</div>
+
+<p class="home-video-caption">
+Featured mechanism demonstration
+</p>
 
 </div>
 
 ## Project Overview
 
-This project investigates the mechanical
-design and prototyping of an automated
-harvesting system for indoor vertical farms.
+This project investigates the design and development
+of an automated harvesting system for leafy green
+vegetables cultivated in hydroponic trays.
 
-The proposed system integrates leaf lifting,
-plant gripping, and cutting mechanisms to
-reduce manual harvesting requirements.
+The proposed system combines mechanical leaf support,
+opposing cup-shaped grippers, a cutting mechanism,
+and coordinated row-based harvesting to reduce
+manual intervention during harvesting.
+
 
 ## Explore the Project
 
-<div class="feature-grid">
-
-<div class="feature-card" markdown>
+<div class="feature-grid" markdown="1">
+  <div class="feature-card" markdown="1">
 
 ### Academic Report
 
-Explore the background, literature review,
-design methodology and engineering analysis.
+Explore the research background, systematic
+ideation, concept evaluation, mechanical
+design and results.
 
-[Read Report](report/introduction.md)
+[Read the Academic Report](report/introduction.md)
 
-</div>
-
-<div class="feature-card" markdown>
+  </div>
+  <div class="feature-card" markdown="1">
 
 ### Engineering Showcase
 
-Explore CAD models, mechanism designs,
-prototype development and testing.
+Explore CAD models, mechanism demonstrations,
+prototype development and testing videos.
 
-[View Showcase](showcase/overview.md)
+[Explore the Showcase](showcase/overview.md)
 
+  </div>
 </div>
 
-<div class="feature-card" markdown>
-
-### Design Development
-
-Follow the development of the harvesting
-mechanism from initial concepts to prototype.
-
-[Explore Designs](report/design.md)
-
-</div>
-
-</div>
 
 ## Project Objectives
 
-1. Develop a suitable harvesting mechanism.
-2. Minimize damage to leafy vegetables.
-3. Enable simultaneous row-based harvesting.
-4. Evaluate prototype performance.
+1. **Develop an automated harvesting mechanism**
+   for leafy green vegetables.
+
+2. **Minimise mechanical damage**
+   during crop handling and separation.
+
+3. **Enable simultaneous row-based harvesting**
+   using coordinated mechanical actuation.
+
+4. **Evaluate design feasibility**
+   through prototyping and functional testing.
