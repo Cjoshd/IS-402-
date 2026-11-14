@@ -48,7 +48,7 @@ Design 3 changes the question from "how do we lift the row?" to "what should hol
   <figcaption>Single cup holder anatomy animation: S-curved rails, funnel cup and rack-and-pinion closing.</figcaption>
 </figure>
 
-## Design 3: Multiple Cup Holders
+## Design 4: Multiple Cup Holders
 
 A single cup harvests only one head per cycle. The multi-cup version puts four cups on one shared rack, each with its own pair of S-curved rails. One pinion closes all the cups together and one waterjet line cuts under every stem, so a whole row is harvested per cycle while each head is still held on its own.
 
