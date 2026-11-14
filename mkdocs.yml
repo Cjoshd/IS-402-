@@ -52,14 +52,15 @@ markdown_extensions:
 nav:
   - Home: index.md
 
-  - Academic Report:
+    - Academic Report:
       - "1. Introduction": report/introduction.md
       - "2. Concept Development and Selection": report/concepts.md
-      - "3. Detailed Mechanical Design": report/design.md
-      - "4. Prototype Development and Testing": report/prototyping.md
-      - "5. Results and Discussion": report/results.md
+      - "3. Detailed Mechanical Design": report/detailed-design.md
+      - "4. Limitations": report/limitations.md
+      - "5. Future Work": report/future-work.md
       - "6. Conclusion": report/conclusion.md
-      - References: report/references.md
+      - "7. References": report/references.md
+      - "8. Appendices": report/appendices.md
 
   - Engineering Showcase:
       - System Overview: showcase/overview.md
