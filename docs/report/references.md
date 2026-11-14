@@ -73,3 +73,57 @@ doi: 10.21273/HORTTECH03886-17.
 [12] Agrilyst, State of Indoor Farming 2017,
 2017. [Online]. Available:
 https://www.bayer.com/sites/default/files/stateofindoorfarming-report-2017.pdf
+
+[13] W. Wang, Y. Ma, L. Fu, Y. Cui, and Y. Majeed,
+"Physical and mechanical properties of hydroponic
+lettuce for automatic harvesting," Information
+Processing in Agriculture, vol. 8, no. 4,
+pp. 550–559, 2021,
+doi: 10.1016/j.inpa.2020.11.005.
+
+[14] Asia News Network, "World's tallest indoor
+vertical farm, costing US$62 million, opens in
+Singapore," Jan. 8, 2026. [Online]. Available:
+https://asianews.network/worlds-tallest-indoor-vertical-farm-costing-us62-million-opens-in-singapore/
+
+[15] HortiDaily, "Customized harvesting machines
+at any budget," Jan. 25, 2021. [Online]. Available:
+https://www.hortidaily.com/article/9286557/customized-harvesting-machines-at-any-budget/
+
+[16] Makita, "HW102 high pressure washer,"
+product sheet, 2020. [Online]. Available:
+https://makita.in/wp-content/uploads/2020/02/HW102_view.pdf
+
+[17] Makita, "HW1300 high pressure washer."
+[Online]. Available: https://makita.in/?p=3238
+
+[18] Kärcher, "Pressure washer K 5 WCM."
+[Online]. Available:
+https://kaercher.com/in/home-garden/pressure-washers/k-5-wcm-13244000.html
+
+[19] Lowe's, "Sun Joe SPX3000 2030-PSI 1.76-GPM
+cold water electric pressure washer."
+[Online]. Available:
+https://www.lowes.com/pd/Sun-Joe-2000-PSI-1-76-GPM-Cold-Water-Electric-Pressure-Washer/1000118935
+
+[20] KMT Waterjet, "Romaine knife and waterjet
+cutting tests: UC Davis and Fresh Express,"
+test summary, 2013. [Online]. Available:
+https://kmtwaterjet.com/wp-content/uploads/UC-DAVIS-FRESH-TEST-SUMMARY-ROMAINE.pdf
+
+[21] M. I. Cantwell, A. A. M. Melo, G. Hong,
+and S. Klose, "Quality of waterjet- and
+blade-cut romaine salad," Acta Horticulturae,
+vol. 1141, pp. 153–158, 2016,
+doi: 10.17660/ActaHortic.2016.1141.17.
+
+[22] IS-404 Team, "Automation of harvesting
+leafy greens in indoor hydroponic farms,"
+CDE4301 project report, National University
+of Singapore, 2026. [Online]. Available:
+https://tallflowerx.github.io/IS-404/
+
+[23] UC Davis Rural Migration News,
+"Alternatives to hand labor in lettuce,"
+Jan. 19, 2022. [Online]. Available:
+https://migration.ucdavis.edu/rmn/blog/post/?id=2700
