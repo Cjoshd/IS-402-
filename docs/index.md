@@ -24,7 +24,7 @@ vegetables in indoor vertical farms.
 </div>
 
 <p class="home-video-caption">
-Featured mechanism demonstration
+Produced by: Clement Joshua Dev, Saiful Imran and Ong Qi Zhi Ignatius
 </p>
 
 </div>
