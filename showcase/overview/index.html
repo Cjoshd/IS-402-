@@ -78,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#overview" class="md-skip">
+        <a href="#system-overview" class="md-skip">
           Skip to content
         </a>
       
@@ -718,6 +718,24 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    System Overview
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -734,6 +752,58 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#how-it-works" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How it works
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-figures" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Key figures
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#design-1-in-motion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Design 1 in motion
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -879,6 +949,47 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#how-it-works" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How it works
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-figures" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Key figures
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#design-1-in-motion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Design 1 in motion
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -894,7 +1005,56 @@
 
 
 
-<h1 id="overview">overview</h1>
+<h1 id="system-overview">System Overview</h1>
+<p>Harvester_v2 is a harvesting station that sits over ArianeTech's existing tray conveyor. It holds each lettuce head by the base of its stem in a split cup, cuts the stem with a waterjet, and sets the head back down on the tray, so the leaves are never gripped and nothing drops into a chute.</p>
+<h2 id="how-it-works">How it works</h2>
+<ol>
+<li>The conveyor indexes the next row of lettuce in, 300 mm at a time.</li>
+<li>S-curved rails lift the outer leaves, and the stems slide into the open cups.</li>
+<li>One gearmotor drives two opposed racks, closing all three cups together around the stems.</li>
+<li>A single waterjet sweeps under the cups and cuts the stems.</li>
+<li>The cups open and each head tips forward onto the tray, leaving the root stub behind.</li>
+</ol>
+<h2 id="key-figures">Key figures</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Heads per row</td>
+<td>3, at 300 mm pitch</td>
+</tr>
+<tr>
+<td>Simulated cycle</td>
+<td>About 8 s per row</td>
+</tr>
+<tr>
+<td>Simulated rate</td>
+<td>About 1,350 heads per hour, 13–18 times the manual rate</td>
+</tr>
+<tr>
+<td>Cut</td>
+<td>One waterjet below the cups; no blades touch the crop</td>
+</tr>
+</tbody>
+</table>
+<p>For the full design development, see <a href="../../report/design/#36-harvester_v2-automated-lettuce-harvester-without-lift">3. Design Development</a>.</p>
+<h2 id="design-1-in-motion">Design 1 in motion</h2>
+<p>Harvester_v2 grew out of Design 1, the fork-lift harvester. In Design 1 the conveyor carries the lettuce to a fork on a lift unit inside the blue frame, a fixed waterjet cuts the stems, and the heads are stripped down a chute into a collection bin. Its problems with loose heads and the drop into the bin led to the later designs (<a href="../../report/design/#33-design-1-fork-lift-harvester">Section 3.3</a>).</p>
+<figure>
+  <video controls muted playsinline preload="metadata" style="width: 100%; max-width: 1000px;">
+    <source src="../../videos/design-1-motion-study.mp4" type="video/mp4">
+    Your browser cannot play this video.
+    <a href="../../videos/design-1-motion-study.mp4">Download the motion study video</a>.
+  </video>
+  <figcaption>
+    SolidWorks motion study of Design 1: conveyor, lift unit in the blue frame, discharge chute and collection bin.
+  </figcaption>
+</figure>
 
 
 
