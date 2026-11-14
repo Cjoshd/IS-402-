@@ -1,20 +1,99 @@
-# 3. Detailed Mechanical Design
+# 3. Design Development
 
-The selected concept was developed through four virtual iterations, each checked in SolidWorks CAD, anatomy animations and motion studies. Every iteration removed a weakness found in the one before: Design 1 (fork-lift harvester), Design 2 (two-axis gantry), Design 3 (cup holder) and the final design, Harvester_v2. The waterjet that cuts the stems is sized separately in Section 3.6. No physical prototype has been built yet; that is the work of Semester 2.
+## 3.1 Ideation
 
-## 3.1 Design 1: Fork-Lift Harvester
+Using a Miro board, we brainstormed ideas and solutions on virtual sticky notes. From the "difficult" board, we picked our five most useful "lousy" ideas. Each one pairs a silly solution with a problem, and we sorted them by how unusual they are (Figure 2). We then pushed each idea through an iteration process: pivot it, reduce its ambition, build it from things that already exist, make it easier for a farm to adopt, and make it easier to use (Figure 3). The two best ideas were then chosen and pitched (Figure 4).
 
-### 3.1.1 Concept
+<figure markdown>
+  ![Miro board](../images/design/ideation-miro.jpg){ width="1000" }
+
+  <figcaption>
+    Figure 2: Miro board: why lettuce picking is difficult (yellow) and deliberately "lousy" solutions (green).
+  </figcaption>
+</figure>
+
+<figure markdown>
+  ![Iterating the lousy ideas](../images/design/ideation-iterate.jpg){ width="1000" }
+
+  <figcaption>
+    Figure 3: Iterating the lousy ideas: pivot, reduce the ambition, build from what exists, ease adoption and use.
+  </figcaption>
+</figure>
+
+<figure markdown>
+  ![Choosing and pitching the two best ideas](../images/design/ideation-pitch.jpg){ width="1000" }
+
+  <figcaption>
+    Figure 4: Choosing the two best ideas and pitching them.
+  </figcaption>
+</figure>
+
+Every main part of our CAD and designs can be traced back to an idea on this board (Figure 5):
+
+- The conveyor belt indexes a tray forward until a photo eye detects the edge of the tray.
+- The water pistols became off-the-shelf water nozzles that cut the stem cleanly.
+- The giant forks became small tines that slide in between the stems and underneath the lettuce heads.
+
+<figure markdown>
+  ![From lousy idea to final part](../images/design/ideation-to-part.jpg){ width="1000" }
+
+  <figcaption>
+    Figure 5: From lousy idea to final part: each main component traces back to the ideation board.
+  </figcaption>
+</figure>
+
+## 3.2 Functional Decomposition and Concept Selection
+
+We then moved on to the morphological chart, where the team broke the harvesting task down into sub-functions: presenting the crop to the machine, locating each row, freeing the head from the tray, raising it clear, releasing it from the end effector, moving it to collection, and storing it (Figure 6). For each sub-function, we brainstormed and sketched as many ways of doing it as we could. Some came from existing solutions and others were our own ideas.
+
+<figure markdown>
+  ![Morphological chart](../images/design/morph-chart.jpg){ width="1100" }
+
+  <figcaption>
+    Figure 6: Morphological chart: options for each of the seven sub-functions, with the chosen path highlighted.
+  </figcaption>
+</figure>
+
+By tracing different paths through the chart, we came up with four concepts (Figure 7):
+
+- **(A)** Fork-lift harvester
+- **(B)** Robot pick and place
+- **(C)** Continuous clamp belt
+- **(D)** Waterjet and vacuum entry
+
+<figure markdown>
+  ![Concept sheets](../images/design/concept-sheets.jpg){ width="1100" }
+
+  <figcaption>
+    Figure 7: Concept sheets for the leading solutions.
+  </figcaption>
+</figure>
+
+We scored each concept from 1 to 5 against weighted criteria: crop damage (25%), throughput (20%), cost and part count (20%), reliability and simple control (15%), hygiene (10%) and fit with standard trays (10%). Figure 8 shows the weighted totals: the fork-lift harvester scored 4.10, ahead of the clamp belt (3.25), the robot arm (2.90) and the waterjet gantry (2.80). Crop damage carries the largest weight because a damaged head is lost revenue.
+
+The fork-lift harvester came out best because it was the only concept that clears a whole row at once without grippers. The selected design combined concept A with the waterjet cut from concept D, but dropped D's moving gantry so that the jet stays fixed.
+
+<figure markdown>
+  ![Criteria weights and weighted scores](../images/design/concept-scores.jpg){ width="1000" }
+
+  <figcaption>
+    Figure 8: Criteria weights and weighted scores out of 5 for the four concepts.
+  </figcaption>
+</figure>
+
+## 3.3 Design 1: Fork-Lift Harvester
+
+### 3.3.1 Concept
 
 Design 1 combines the fork-lift harvester with the waterjet cut from the waterjet gantry concept. The fork lifts a row of lettuce from below, a fixed waterjet cuts the stems, and a comb strips the heads into a gravity chute. The moving gantry from the waterjet concept was dropped, so the jet stays in one place. The waterjet was kept because it cuts without touching the leaves, and in other harvesting methods gripping causes most of the damage [10].
 
-Design 1 has six components: a conveyor that indexes the trays, the fork, the fixed waterjet, a lift, stripper comb strips, and a gravity chute into a collection bin (Fig. 3.1). In one cycle the row slides onto the tines, the fork lifts it and turns 135°, and the comb strips the heads down the chute into the bin (Fig. 3.2).
+Design 1 has six components: a conveyor that indexes the trays, the fork, the fixed waterjet, a lift, stripper comb strips, and a gravity chute into a collection bin (Figure 9). In one cycle the row slides onto the tines, the fork lifts it and turns 135°, and the comb strips the heads down the chute into the bin (Figure 10).
 
 <figure markdown>
   ![Design 1 in SolidWorks](../images/design/d1-solidworks.jpg){ width="900" }
 
   <figcaption>
-    Fig. 3.1. Design 1 in SolidWorks: conveyor, fork on the lift unit, stripper comb, discharge chute and bin.
+    Figure 9: Design 1 in SolidWorks: conveyor, fork on the lift unit, stripper comb, discharge chute and bin.
   </figcaption>
 </figure>
 
@@ -22,16 +101,16 @@ Design 1 has six components: a conveyor that indexes the trays, the fork, the fi
   ![One cycle of Design 1](../images/design/d1-cycle.jpg){ width="1000" }
 
   <figcaption>
-    Fig. 3.2. One cycle of Design 1 (anatomy model, 135° turn).
+    Figure 10: One cycle of Design 1 (anatomy model, 135° turn).
   </figcaption>
 </figure>
 
-### 3.1.2 Fork Specifications
+### 3.3.2 Fork Specifications
 
-The fork has to support each lettuce without gripping it, fit between adjacent rows and carry the full mass of the plant. Its dimensions come from published measurements of hydroponic lettuce [13] and from simulation (Table 3.1).
+The fork has to support each lettuce without gripping it, fit between adjacent rows and carry the full mass of the plant. Its dimensions come from the lettuce measurements in [Table 1](objective.md#23-design-estimates) and from simulation (Table 3).
 
 <div markdown style="text-align: center;">
-**Table 3.1.** Fork dimensions and their basis.
+**Table 3:** Fork dimensions and their basis.
 </div>
 
 | Parameter | Basis | Value |
@@ -41,10 +120,10 @@ The fork has to support each lettuce without gripping it, fit between adjacent r
 | Tine width | 14.45 ÷ 2π = 14.45 ÷ 6.283 | ≈ 23 mm |
 | Tine length (L) | L ≥ 4D, where D = 79.5 mm from simulation | ≥ 318 mm (4 × 79.5 mm) |
 
-The final design rounds the calculated values and keeps the tine length, width and gap in a ratio of 320 : 23 : 75 (Table 3.2).
+The final design rounds the calculated values and keeps the tine length, width and gap in a ratio of 320 : 23 : 75 (Table 4).
 
 <div markdown style="text-align: center;">
-**Table 3.2.** Final fork dimensions.
+**Table 4:** Final fork dimensions.
 </div>
 
 | Dimension | Value |
@@ -53,28 +132,28 @@ The final design rounds the calculated values and keeps the tine length, width a
 | Tine width | 23 mm |
 | Tine gap | 75 mm |
 
-### 3.1.3 CAD and Assembly
+### 3.3.3 CAD and Assembly
 
-The fork has a steerer tube, headset cups, a crown, tines, and holes for the waterjet stream (Fig. 3.3). The parts were modelled in SolidWorks from sketches with extrude, revolve and reference-geometry features.
+The fork has a steerer tube, headset cups, a crown, tines, and holes for the waterjet stream (Figure 11). The parts were modelled in SolidWorks from sketches with extrude, revolve and reference-geometry features.
 
 <figure markdown>
   ![Fork parts](../images/design/fork-parts.jpg){ width="240" style="display: inline-block;" }
   ![Fork CAD](../images/design/fork-cad.jpg){ width="440" style="display: inline-block;" }
 
   <figcaption>
-    Fig. 3.3. Fork parts (left) and fork CAD (right).
+    Figure 11: Fork parts (left) and fork CAD (right).
   </figcaption>
 </figure>
 
 The assembly was built from the bottom up, with mates only where parts move. Parts that never move, such as the rotor shaft, head tubes and forks, were placed at exact coordinates and fixed.
 
-**Lift unit.** The rotor axis and the bearing axis are coincident, so the shaft is centred in its bearings and can only spin or slide along its length. The rotor's front plane is coincident with the lift unit's front plane, which stops the sliding (Fig. 3.4). The lift unit has two positions in the simulation (Fig. 3.5, Table 3.3).
+**Lift unit.** The rotor axis and the bearing axis are coincident, so the shaft is centred in its bearings and can only spin or slide along its length. The rotor's front plane is coincident with the lift unit's front plane, which stops the sliding (Figure 12). The lift unit has two positions in the simulation (Figure 13, Table 5).
 
 <figure markdown>
   ![Lift unit](../images/design/lift-unit.jpg){ width="800" }
 
   <figcaption>
-    Fig. 3.4. Lift unit: rotor gearmotor, shaft, lift carriage and tines.
+    Figure 12: Lift unit: rotor gearmotor, shaft, lift carriage and tines.
   </figcaption>
 </figure>
 
@@ -83,12 +162,12 @@ The assembly was built from the bottom up, with mates only where parts move. Par
   ![Lift unit at the strip position](../images/design/lift-strip.jpg){ width="340" style="display: inline-block;" }
 
   <figcaption>
-    Fig. 3.5. Lift unit at the harvest position (left) and the strip position (right).
+    Figure 13: Lift unit at the harvest position (left) and the strip position (right).
   </figcaption>
 </figure>
 
 <div markdown style="text-align: center;">
-**Table 3.3.** Lift-unit positions in the simulation.
+**Table 5:** Lift-unit positions in the simulation.
 </div>
 
 | | 1: Harvest | 2: Strip |
@@ -97,55 +176,57 @@ The assembly was built from the bottom up, with mates only where parts move. Par
 | Fork angle | Level | Turned 135° |
 | During simulation | Jet cuts; heads on the forks | Heads slide off the comb |
 
-**Frame.** In the full machine the lift unit is attached to the blue frame (Fig. 3.6). A coincident front plane stops it drifting sideways across the belt, and a coincident right plane stops it drifting along the conveyor. A distance mate sets the rotor height for each position, and a parallel mate between a rotor plane and a frame plane sets the fork angle.
+**Frame.** In the full machine the lift unit is attached to the blue frame (Figure 14). A coincident front plane stops it drifting sideways across the belt, and a coincident right plane stops it drifting along the conveyor. A distance mate sets the rotor height for each position, and a parallel mate between a rotor plane and a frame plane sets the fork angle.
 
 <figure markdown>
   ![Blue frame carrying the lift unit](../images/design/frame.jpg){ width="700" }
 
   <figcaption>
-    Fig. 3.6. Blue frame carrying the lift unit.
+    Figure 14: Blue frame carrying the lift unit.
   </figcaption>
 </figure>
 
 **Interference detection.** To find places where two parts overlap, the angle plane was turned through 360° in 15° steps, which turns the fork with it. At each step the team checked whether the fork touches the frame or the stripper combs.
 
-### 3.1.4 Problems Found in Virtual Testing
+### 3.3.4 Problems Found in Virtual Testing
 
-The CAD raised two questions (Fig. 3.7):
+The CAD review identified two concerns with the fork mechanism (Figure 15):
 
-1. **Range of motor angle.** A full 360° turn lets a simple one-direction gearmotor run without position control, but the tines then sweep a full circle around the shaft, which the frame and comb must clear; this is why the interference check stepped through 360°. A 135° turn followed by reversal sweeps far less space, but needs position control, a homing sensor and two stop-and-reverse events per cycle.
-2. **Comb sticking.** The comb pushes wet heads past the tines. With about 95% moisture in the leaves [13], the team expects leaves to wedge between comb and fork, a risk to be tested rather than assumed.
+1. **Range of motor angle.** A full 360° rotation allows continuous movement in one direction, but requires enough clearance around the shaft to prevent the tines from striking the frame or comb. The interference check therefore covered the complete rotation. Limiting movement to 135° before reversing reduces the swept space, but requires controlled endpoints and repeated direction changes.
+2. **Comb sticking.** The comb introduces a separate concern, as wet leaves could become trapped between its teeth and the fork during discharge.
+
+Together, these issues prompted a closer review of how the mechanism handles each head throughout the cycle.
 
 <figure markdown>
   ![Questions raised by Design 1](../images/design/d1-questions.jpg){ width="900" }
 
   <figcaption>
-    Fig. 3.7. Questions raised by Design 1: the range of motor angle, and wet heads sticking between comb and fork.
+    Figure 15: Questions raised by Design 1: the range of motor angle, and wet heads sticking between comb and fork.
   </figcaption>
 </figure>
 
-The anatomy model (Fig. 3.2) exposed three further handling problems:
+The anatomy model (Figure 10) revealed three further weaknesses:
 
-- Nothing restrains the heads while the fork lifts and turns.
-- The heads roll down the chute and land in a heap, whereas neat, pack-ready output is the very reason Greenphyto still harvests by hand [14].
-- Every motion adds an actuator.
+- **No restraint.** The heads have no restraint as the fork lifts and rotates, leaving them vulnerable to slipping.
+- **Disordered output.** The heads roll down the chute and collect in a heap, adding handling before packing. Greenphyto's continued use of manual harvesting highlights the importance of orderly, pack-ready output [14].
+- **Actuator count.** Separate actuators increase coordination and maintenance demands.
 
-These findings led to Design 2.
+Design 2 was developed to improve head retention, discharge control and mechanical simplicity.
 
-## 3.2 Design 2: Two-Axis Gantry
+## 3.4 Design 2: Two-Axis Gantry
 
-Design 2 removes the turn and the comb (Fig. 3.8). A portal gantry over the end of the conveyor carries the fork on a vertical and a horizontal axis. The fork slides under the front row, the fixed jet cuts the stems, the vertical axis raises the row level, and the horizontal axis carries it over the chute, where the heads are released.
+Design 2 replaces the rotating fork and comb with a two-axis gantry above the conveyor's discharge end (Figure 16). The fork slides beneath the front row while a fixed waterjet cuts the stems. It then lifts the heads level and moves horizontally over the chute for release. Table 6 compares this arrangement with Design 1, building on the evaluation presented at the interim presentation.
 
 <figure markdown>
   ![One cycle of Design 2](../images/design/d2-cycle.jpg){ width="1000" }
 
   <figcaption>
-    Fig. 3.8. One cycle of Design 2 (anatomy model, rear isometric view).
+    Figure 16: One cycle of Design 2 (anatomy model, rear isometric view).
   </figcaption>
 </figure>
 
 <div markdown style="text-align: center;">
-**Table 3.4.** Design 1 (one axis with a flip) compared with Design 2 (two-axis gantry).
+**Table 6:** Design 1 (one gantry axis with a flip) compared with Design 2 (two-axis gantry).
 </div>
 
 | Aspect | Design 1: one axis + flip | Design 2: two-axis gantry |
@@ -158,21 +239,21 @@ Design 2 removes the turn and the comb (Fig. 3.8). A portal gantry over the end 
 | Frame | Compact single portal | Larger portal with two rails |
 | Remaining risks | Heads unrestrained during motion; drop into chute and bin | Same: heads unrestrained; drop into chute and bin |
 
-Design 2 answers both questions raised by Design 1, at the cost of a second coordinated axis and a larger frame. It does not solve the main handling problem: the heads still ride loose on the tines and still drop onto a chute. The next step was therefore to ask what should hold each head while it is cut.
+Design 2 removes the rotational clearance and comb concerns, but adds a larger frame and a second coordinated axis. The heads remain loose on the tines and drop onto a chute during discharge. This shifted the focus towards supporting each head securely through cutting, transfer and release.
 
-## 3.3 Design 3: Cup Holder
+## 3.5 Design 3: Cup Holder
 
-### 3.3.1 Single Cup
+### 3.5.1 Single Cup
 
-Design 3 replaces the open tines with a split, funnel-shaped cup that closes around the stem below the head, flanked by two S-curved rails (Fig. 3.9). As the plant advances, the rails rise and gather the outer leaves upward and inward, so the head enters the cup without being pushed or squeezed (Fig. 3.10). A rack and pinion closes the two cup halves on the stem; the jet then cuts just below the cup, leaving the stub on the conveyor while the head stays held upright.
+Design 3 replaces the open tines with a split, funnel-shaped cup beneath the lettuce head, flanked by two S-curved guide rails (Figure 17). As the plant advances, the rails guide the outer leaves upward and inward to ease entry into the cup (Figure 18). A rack-and-pinion mechanism closes the cup halves around the stem before the waterjet cuts below, leaving the lower stem and roots on the conveyor while supporting the head upright.
 
-Holding the base rather than the leaves follows the evidence on gripping damage [10], and it addresses the falling head that a tray-cutter maker reports for whole lettuce [15].
+This arrangement shifts support from the leaves to the base, responding to the gripping injuries reported by Ma et al. [10]. Retaining the head after cutting also addresses the toppling problem described by a tray-harvester manufacturer [15], providing a basis for controlled transfer.
 
 <figure markdown>
   ![Design 3 CAD](../images/design/d3-cad.jpg){ width="800" }
 
   <figcaption>
-    Fig. 3.9. Design 3 CAD: early holder with S-curved arms and rail (top left), split cup on a rack and pinion (bottom left), refined holder (right).
+    Figure 17: Design 3 CAD: early holder with S-curved arms and rail (top left), split cup on a rack and pinion (bottom left), refined holder (right).
   </figcaption>
 </figure>
 
@@ -180,36 +261,36 @@ Holding the base rather than the leaves follows the evidence on gripping damage 
   ![One cycle of the single-cup holder](../images/design/d3-single-cycle.jpg){ width="1000" }
 
   <figcaption>
-    Fig. 3.10. One cycle of the single-cup holder (anatomy model).
+    Figure 18: One cycle of the single-cup holder (anatomy model).
   </figcaption>
 </figure>
 
-### 3.3.2 Multiple Cups
+### 3.5.2 Multiple Cups
 
-A single cup harvests one head per cycle. The multi-cup version places four cups on one rack, each with its own pair of S-rails, closed together by one pinion, with one jet line under all four stems (Fig. 3.11). One actuator and one jet now serve a whole row, recovering the row-at-a-time throughput of Design 1 without its loose handling.
+The multi-cup arrangement extends the single-head concept to four cups on a shared rack, each with its own pair of S-curved rails (Figure 19). One pinion closes the cups together, while a common waterjet line cuts beneath the stems. This restores row-by-row harvesting with one closing actuator while retaining individual support for each head during cutting.
 
 <figure markdown>
   ![One cycle of the multi-cup holder](../images/design/d3-multi-cycle.jpg){ width="1000" }
 
   <figcaption>
-    Fig. 3.11. One cycle of the multi-cup holder (anatomy model).
+    Figure 19: One cycle of the multi-cup holder (anatomy model).
   </figcaption>
 </figure>
 
-## 3.4 Final Design: Harvester_v2
+## 3.6 Harvester_v2: Automated Lettuce Harvester without Lift
 
-The final design builds the multi-cup holder into a station over the conveyor (Fig. 3.12). Its key parameters are listed in Table 3.5, and one cycle from the SolidWorks motion study is shown in Fig. 3.13.
+The final design builds the multi-cup holder into a station over the conveyor (Figure 20). Its key parameters are listed in Table 7, and one cycle from the SolidWorks motion study is shown in Figure 21.
 
 <figure markdown>
   ![Harvester_v2 in SolidWorks](../images/design/final-solidworks.jpg){ width="1000" }
 
   <figcaption>
-    Fig. 3.12. Harvester_v2 in SolidWorks: station over the conveyor (top left), half-cups between S-curved tines (top right), heads in the holders (bottom left) and cut head tipped onto the tray (bottom right).
+    Figure 20: Harvester in SolidWorks: station over the conveyor (top left), half-cups between S-curved tines (top right), heads in the holders (bottom left) and cut head tipped onto the tray (bottom right).
   </figcaption>
 </figure>
 
 <div markdown style="text-align: center;">
-**Table 3.5.** Key parameters of Harvester_v2 (from the CAD model).
+**Table 7:** Key parameters of Harvester_v2 (from the CAD model).
 </div>
 
 | Parameter | Value |
@@ -228,7 +309,7 @@ The final design builds the multi-cup holder into a station over the conveyor (F
   ![One cycle of Harvester_v2](../images/design/final-cycle.jpg){ width="900" }
 
   <figcaption>
-    Fig. 3.13. One cycle of Harvester_v2 from the SolidWorks motion study.
+    Figure 21: One cycle of Harvester_v2 from the SolidWorks motion study.
   </figcaption>
 </figure>
 
@@ -244,15 +325,13 @@ In each cycle:
 The motion study was checked frame by frame so that no part passes through another, and the tipped head comes to rest about 0.5 mm above the tray. The head never leaves the tray's support, so there is no drop into a chute.
 
 !!! note "Throughput"
-    At about 8 s per row of three, the simulated rate is 3 × 3,600 ÷ 8 ≈ 1,350 heads per hour. That is about 13–18 times the observed manual rate of 75–100 heads per hour, within the team's target of 10–40 times. The cycle time is a motion-study assumption that must be confirmed on hardware.
+    At about 8 s per row of three, the simulated rate is 3 × 3,600 ÷ 8 ≈ 1,350 heads per hour. That is about 13–18 times the observed manual rate of 75–100 heads per hour, within the 10–40× target set in [Section 2.3](objective.md#23-design-estimates). The cycle time is a motion-study assumption that must be confirmed on hardware.
 
 !!! note "Closing force"
-    Because one pinion drives both racks, the closing force is set by motor torque: F = T / r. With a pitch radius of 10 mm and three cups per rack, limiting each cup to a force F<sub>c</sub> requires T = 3 F<sub>c</sub> r. For an illustrative F<sub>c</sub> of 2 N this is only 0.06 N·m. Crop safety therefore depends on limiting motor current, not on motor size. The safe value of F<sub>c</sub> is unknown and will be found by test.
-
-## 3.5 Summary of Design Iterations
+    Because one pinion drives both racks, the closing force is set by motor torque: F = T / r. With a pitch radius of 10 mm and three cups per rack, limiting each cup to a force F<sub>c</sub> requires T = 3 F<sub>c</sub> r. For an illustrative F<sub>c</sub> of 2 N this is only 0.06 N·m. Crop safety therefore depends on limiting motor current, not on motor size. The safe value of F<sub>c</sub> is unknown and is the target of test T2 ([Section 5](future-work.md)).
 
 <div markdown style="text-align: center;">
-**Table 3.6.** How each design answered the weakness of the one before.
+**Table 8:** How each design answered the weakness of the one before.
 </div>
 
 | Design | What it fixed | What it left open |
@@ -263,28 +342,14 @@ The motion study was checked frame by frame so that no part passes through anoth
 | 3: Multi-cup | A row per cycle with one drive and one jet | Release path; even closing; jet sizing |
 | Final: Harvester_v2 | Opposed racks on one pinion; heads stay on the tray, no drop | Jet pressure, cup force and release still to be tested |
 
-## 3.6 Waterjet Stem Cutting
+## 3.7 Waterjet Stem Cutting
 
-### 3.6.1 Evidence for a Waterjet Cut
+### 3.7.1 Pressure Washer Comparison
 
-In 2013, UC Davis and Fresh Express ran two trials comparing knife cutting with waterjet cutting of salad-cut romaine. Lettuce was cut into 2-inch pieces, bagged in air and stored at 2.5 °C for up to 20 days, then scored for visual quality, discoloration and whitening of the cut edges [20]. At 18 days, the sharp-nozzle waterjet was the best treatment, and in the second trial the sharp-nozzle waterjet was clearly better than both knives by 12 days (Fig. 3.14). The published study confirms that romaine cut with a food-grade waterjet nozzle kept better cut-surface quality than blade-cut romaine when stored without a modified atmosphere [21].
-
-<figure markdown>
-  ![Blade-cut and waterjet-cut romaine](../images/design/ucdavis-blade-vs-waterjet.jpg){ width="550" }
-
-  <figcaption>
-    Fig. 3.14. Blade-cut and waterjet-cut romaine after 8 and 18 days of storage (UC Davis and Fresh Express trials [20]).
-  </figcaption>
-</figure>
-
-The trials used an industrial waterjet pump at 35,000–55,000 psi (about 2,400–3,800 bar). The pressure washers considered below reach 100–145 bar, so the trial results cannot be assumed for this design without testing.
-
-### 3.6.2 Pressure Washer Comparison
-
-Four off-the-shelf pressure washers were compared as the water supply for the jet (Table 3.7).
+Four off-the-shelf pressure washers were compared as the water supply for the jet (Table 9). Prices are as listed on the design slide; the Sun Joe price is in US dollars.
 
 <div markdown style="text-align: center;">
-**Table 3.7.** Pressure washer comparison. Specifications from manufacturer or retailer pages [16]–[19]; prices from the team's survey.
+**Table 9:** Pressure washer comparison. Specifications from manufacturer or retailer pages [16]–[19].
 </div>
 
 | Specification | Makita HW102 | Makita HW1300 | Kärcher K5 | Sun Joe SPX3000 |
@@ -296,7 +361,17 @@ Four off-the-shelf pressure washers were compared as the water supply for the je
 | Self-priming (draws water from a tank) | Not stated | Yes | Yes | Not stated |
 | Adjustable pressure | No | Yes | Yes | No |
 
-### 3.6.3 Jet Calculations
+### 3.7.2 Jet Calculations
+
+In 2013, UC Davis and Fresh Express ran two trials comparing knife cutting with waterjet cutting of salad-cut romaine [20]. Lettuce was cut into 2-inch pieces, bagged in air and stored at 2.5 °C for up to 20 days, then scored for visual quality, discoloration and whitening of the cut edges. Waterjet-cut romaine kept better cut-surface quality than blade-cut romaine (Figure 22) [21]. The trials used an industrial waterjet pump at 35,000–55,000 psi (about 2,400–3,800 bar), far above the 100–145 bar of the washers in Table 9, so the jet for this design has to be sized separately.
+
+<figure markdown>
+  ![Blade-cut and waterjet-cut romaine](../images/design/ucdavis-blade-vs-waterjet.jpg){ width="550" }
+
+  <figcaption>
+    Figure 22: Blade-cut and waterjet-cut romaine after 8 and 18 days of storage (UC Davis and Fresh Express trials; KMT Waterjet, 2013 [20]).
+  </figcaption>
+</figure>
 
 These figures assume each washer runs at its maximum pressure and maximum flow at the same time, with no losses in the hose or nozzle and one nozzle taking the whole flow. Pressure P is in pascals (1 bar = 100,000 Pa), flow Q is in m³/s (1 L/min = 1/60,000 m³/s) and water density ρ is 1000 kg/m³.
 
@@ -312,22 +387,8 @@ These figures assume each washer runs at its maximum pressure and maximum flow a
 - Nozzle diameter = √(4 × 0.0001 ÷ (π × 141)) ≈ 0.95 mm
 - Jet force = 1000 × 0.0001 × 141 ≈ 14 N
 
-Applying the same relations to all four washers gives the results in Table 3.8. The equivalent stress is the jet force spread over a 10 mm stem (78.5 mm²), following the impact model used by the previous cohort [22], whose design stress is 0.30 MPa (a tissue failure stress of 0.20 MPa × a safety factor of 1.5).
+Applying the same relations to all four washers gives jet forces of 14–24 N when one nozzle takes the full flow ([Appendix A](appendix.md#81-appendix-a-jet-calculations-for-four-pressure-washers), Table 13).
 
-<div markdown style="text-align: center;">
-**Table 3.8.** Ideal jet properties for each washer (team calculation).
-</div>
+The previous cohort estimated, with an impact-stress model, that a 0.5 mm nozzle needs about 74 MPa to sever a 10 mm stem, assuming a tissue failure stress of 0.20 MPa and a safety factor of 1.5 [22]. That is 7.4 times the HW102's 10 MPa. On the same model, the HW102's full 14 N spread over a 10 mm stem gives 0.18 MPa, below the 0.30 MPa design stress, and sharing the flow among three stems lowers it further.
 
-| Washer | Rating | Jet velocity | Hydraulic power | Nozzle diameter | Jet force | Stress on 10 mm stem |
-|---|---|---|---|---|---|---|
-| Makita HW102 | 100 bar, 6.0 L/min | 141 m/s | 1,000 W | 0.95 mm | 14.1 N | 0.18 MPa |
-| Makita HW1300 | 130 bar, 7.5 L/min | 161 m/s | 1,625 W | 0.99 mm | 20.2 N | 0.26 MPa |
-| Kärcher K5 | 145 bar, 8.3 L/min | 170 m/s | 2,014 W | 1.02 mm | 23.7 N | 0.30 MPa |
-| Sun Joe SPX3000 | 140 bar, 6.7 L/min | 167 m/s | 1,554 W | 0.92 mm | 18.6 N | 0.24 MPa |
-
-The previous cohort estimated, with this impact-stress model, that a 0.5 mm nozzle needs about 74 MPa to sever a 10 mm stem [22]. That is 7.4 times the HW102's 10 MPa. On the same model, the HW102's full 14 N spread over a 10 mm stem gives 0.18 MPa, below the 0.30 MPa design stress, and sharing the flow among three stems lowers it further.
-
-Commercial waterjet harvesters do cut whole romaine in the field [23], so the model is probably conservative: a jet cuts by eroding a narrow kerf rather than loading the whole cross-section. Pressure, nozzle size and stand-off must therefore be found by test before a pump is chosen.
-
-!!! warning "Still to be tested"
-    All results in this section come from CAD, anatomy models, motion studies and calculation. Jet pressure, safe cup closing force, and damage when the heads tip onto the tray will be tested on hardware in Semester 2.
+Commercial waterjet harvesters do cut whole romaine in the field [23], so the model is probably conservative: a jet cuts by eroding a narrow kerf rather than loading the whole cross-section. Pressure, nozzle size and stand-off must therefore be found by test (T1) before a pump is chosen.
