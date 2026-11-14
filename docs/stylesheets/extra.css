@@ -73,3 +73,18 @@
   background: #e9eff0;
   overflow: hidden;
 }
+
+
+/* Academic report figures */
+.md-typeset figure {
+  text-align: center;
+  margin: 2rem auto;
+}
+
+.md-typeset figcaption {
+  max-width: 100%;
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--md-default-fg-color--light);
+}
+
